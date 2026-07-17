@@ -1,11 +1,13 @@
 <div align="center">
 
-<img src="./assets/developer-galaxy.svg" width="100%" alt="Indudhara Developer Galaxy" />
-
-<br>
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:030712,30:111827,65:312E81,100:7C3AED&text=INDUDHARA'S%20NEURAL%20ARCADE&fontColor=FFFFFF&fontSize=38&fontAlignY=38&desc=AI%20ENGINEER%20%E2%80%A2%20FULL-STACK%20DEVELOPER%20%E2%80%A2%20SYSTEM%20BUILDER&descAlignY=59&animation=fadeIn"
+  alt="Indudhara's Neural Arcade"
+/>
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=20&duration=2200&pause=700&color=7DD3FC&center=true&vCenter=true&width=900&height=55&lines=TRANSMISSION+RECEIVED+FROM+INDUDHARA;EXPLORING+ARTIFICIAL+INTELLIGENCE;BUILDING+FULL-STACK+SYSTEMS;TRAINING+MODELS+ACROSS+THE+GALAXY;WELCOME+ABOARD%2C+EXPLORER"
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2200&pause=650&color=A78BFA&center=true&vCenter=true&width=900&height=65&lines=%5BSYSTEM%5D+PLAYER+INDUDHARA+CONNECTED;%5BAI+CORE%5D+MODELS+ARE+ONLINE;%5BBUILD%5D+GENERATING+INTELLIGENT+SYSTEMS;%5BQUEST%5D+SELECT+A+PROJECT+TO+BEGIN;%5BSTATUS%5D+WELCOME+TO+THE+NEURAL+ARCADE"
   alt="Animated introduction"
 />
 
@@ -14,75 +16,79 @@
 <a href="https://i59.vercel.app/">
   <img
     src="https://img.shields.io/badge/LAUNCH_PORTFOLIO-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"
-    alt="Portfolio"
+    alt="Launch portfolio"
   />
 </a>
 
 <a href="https://github.com/indudhara59?tab=repositories">
   <img
-    src="https://img.shields.io/badge/EXPLORE_PROJECTS-0284C7?style=for-the-badge&logo=github&logoColor=white"
-    alt="Repositories"
+    src="https://img.shields.io/badge/BROWSE_PROJECTS-2563EB?style=for-the-badge&logo=github&logoColor=white"
+    alt="Browse repositories"
   />
 </a>
 
 <br><br>
 
 <img
-  src="https://komarev.com/ghpvc/?username=indudhara59&label=SPACE+TRAVELLERS&color=7C3AED&style=flat-square"
-  alt="Profile views"
+  src="https://komarev.com/ghpvc/?username=indudhara59&label=ARCADE+VISITORS&color=7C3AED&style=for-the-badge"
+  alt="Profile visitors"
 />
 
 <img
-  src="https://img.shields.io/github/followers/indudhara59?label=CREW+MEMBERS&style=flat-square&color=0284C7"
-  alt="Followers"
+  src="https://img.shields.io/github/followers/indudhara59?label=PARTY+MEMBERS&style=for-the-badge&color=2563EB"
+  alt="GitHub followers"
 />
 
 <img
-  src="https://img.shields.io/github/stars/indudhara59?affiliations=OWNER&label=ENERGY+CRYSTALS&style=flat-square&color=F59E0B"
-  alt="Stars"
+  src="https://img.shields.io/github/stars/indudhara59?affiliations=OWNER&label=POWER+STARS&style=for-the-badge&color=F59E0B"
+  alt="GitHub stars"
 />
 
 </div>
 
 ---
 
+# 🧬 Player Core
+
 <table>
 <tr>
 <td width="55%" valign="top">
 
-## 🛰️ Captain Identity
+## Identity Matrix
 
 ```yaml
-captain:
+player:
   name: Indudhara Swamy Vivekananda
   username: indudhara59
-  base: Germany
+  location: Germany
+  status: Online
 
-role:
+classes:
   primary: AI and Machine Learning Developer
   secondary: Full-Stack Software Engineer
 
-mission:
-  - Build intelligent applications
-  - Explore software architecture
-  - Create healthcare technology
-  - Develop autonomous agents
-  - Visualize complex systems
+specializations:
+  - Artificial Intelligence
+  - Machine Learning
+  - Healthcare Technology
+  - Software Architecture
+  - Program Analysis
+  - Interactive Web Applications
 ```
 
 </td>
 
 <td width="45%" valign="top">
 
-## ⚡ Ship Systems
+## System Power
 
 ```text
-AI ENGINE             ████████████████░░  88%
-FULL-STACK CORE       █████████████████░  92%
-ML NAVIGATION         ████████████████░░  86%
-ARCHITECTURE RADAR    ███████████████░░░  80%
-DEBUGGING SHIELD      ██████████████████  98%
-COFFEE REACTOR        ██████████████████  100%
+AI ENGINE          ████████████████░░  88%
+FULL-STACK CORE    █████████████████░  92%
+ML PROCESSOR       ████████████████░░  86%
+ARCHITECTURE RADAR ███████████████░░░  80%
+DEBUGGING SHIELD   ██████████████████  98%
+COFFEE REACTOR     ██████████████████ 100%
 ```
 
 </td>
@@ -91,44 +97,53 @@ COFFEE REACTOR        ██████████████████  10
 
 ---
 
-# 🌌 Select a Planet
+# 🛠️ Equipped Technology
 
 <div align="center">
 
-| Planet | Environment | Mission |
-|:---:|:---|:---|
-| 🩺 **MediCheck Prime** | Healthcare AI | Build explainable and safety-focused symptom assessment |
-| 🧠 **DSARP Nexus** | Software architecture | Rank transformer-assisted refactoring strategies |
-| 🤖 **Tamagotchi-9** | Autonomous agents | Simulate intelligent creatures with evolving needs |
-| ✅ **DoIt Station** | Productivity | Transform tasks into a visual interactive experience |
-| 🔗 **Java Core** | Static analysis | Discover hidden class and method dependencies |
-| 💓 **Bio-Pulse** | Digital health | Explore autonomous preventive health monitoring |
+### Languages
+
+<img
+  src="https://skillicons.dev/icons?i=python,ts,js,java,r,html,css"
+  alt="Programming languages"
+/>
+
+### Frameworks and AI
+
+<img
+  src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,pytorch,tensorflow,tailwind"
+  alt="Frameworks and AI tools"
+/>
+
+### Data, Cloud and Development
+
+<img
+  src="https://skillicons.dev/icons?i=mongodb,postgres,supabase,firebase,docker,git,github,vercel,linux,vscode"
+  alt="Databases, cloud and development tools"
+/>
 
 </div>
 
 ---
 
+# 🕹️ Project Selection Screen
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-## 🩺 MediCheck Prime
+## 🩺 MediCheck AI
 
-<img
-  src="https://img.shields.io/badge/PLANET-HEALTHCARE_AI-DC2626?style=flat-square"
-  alt="Healthcare AI"
-/>
+```text
+GAME MODE   : Healthcare Intelligence
+DIFFICULTY  : Legendary
+FINAL BOSS  : Unsafe Medical Predictions
+STATUS      : In Development
+```
 
-<img
-  src="https://img.shields.io/badge/THREAT_LEVEL-LEGENDARY-7C3AED?style=flat-square"
-  alt="Legendary"
-/>
+An explainable virtual health-checkup and symptom-triage platform built around supervised machine learning, emergency detection, confidence handling, authentication, MongoDB and clinician review.
 
-### Planet objective
-
-Create a professional virtual health-checkup experience with supervised machine learning, emergency detection, explainable results and clinician review.
-
-### Technology modules
+**Technology**
 
 `Next.js` · `TypeScript` · `Python` · `MongoDB` · `Machine Learning`
 
@@ -136,8 +151,8 @@ Create a professional virtual health-checkup experience with supervised machine 
 
 <a href="https://github.com/indudhara59/medicheck-ai">
   <img
-    src="https://img.shields.io/badge/ENTER_PLANET-MediCheck_AI-DC2626?style=for-the-badge&logo=github"
-    alt="MediCheck AI"
+    src="https://img.shields.io/badge/START_MISSION-MEDICHECK_AI-DC2626?style=for-the-badge&logo=github&logoColor=white"
+    alt="Open MediCheck AI"
   />
 </a>
 
@@ -145,23 +160,18 @@ Create a professional virtual health-checkup experience with supervised machine 
 
 <td width="50%" valign="top">
 
-## 🧠 DSARP Nexus
+## 🧠 DSARP
 
-<img
-  src="https://img.shields.io/badge/PLANET-SOFTWARE_ARCHITECTURE-7C3AED?style=flat-square"
-  alt="Software architecture"
-/>
+```text
+GAME MODE   : Software Architecture
+DIFFICULTY  : Legendary
+FINAL BOSS  : Architectural Smells
+STATUS      : Research Complete
+```
 
-<img
-  src="https://img.shields.io/badge/THREAT_LEVEL-LEGENDARY-7C3AED?style=flat-square"
-  alt="Legendary"
-/>
+A transformer-assisted software-refactoring recommendation system combining architecture analysis, interpretable ranking, learning-to-rank, HPC execution and grounded LLM validation.
 
-### Planet objective
-
-Generate and rank architecture-refactoring recommendations using software metrics, transformer models, learning-to-rank and grounded LLM validation.
-
-### Technology modules
+**Technology**
 
 `Python` · `Transformers` · `LambdaMART` · `HPC` · `LLMs`
 
@@ -169,8 +179,8 @@ Generate and rank architecture-refactoring recommendations using software metric
 
 <a href="https://github.com/indudhara59/dsarp-transformer-refactoring-Public">
   <img
-    src="https://img.shields.io/badge/ENTER_PLANET-DSARP-7C3AED?style=for-the-badge&logo=github"
-    alt="DSARP"
+    src="https://img.shields.io/badge/START_MISSION-DSARP-7C3AED?style=for-the-badge&logo=github&logoColor=white"
+    alt="Open DSARP"
   />
 </a>
 
@@ -180,23 +190,18 @@ Generate and rank architecture-refactoring recommendations using software metric
 <tr>
 <td width="50%" valign="top">
 
-## 🤖 Tamagotchi-9
+## 🤖 Digital Tamagotchi
 
-<img
-  src="https://img.shields.io/badge/PLANET-AUTONOMOUS_AGENTS-DB2777?style=flat-square"
-  alt="Autonomous agents"
-/>
+```text
+GAME MODE   : Autonomous Agents
+DIFFICULTY  : Epic
+FINAL BOSS  : Survival Decisions
+STATUS      : Active
+```
 
-<img
-  src="https://img.shields.io/badge/THREAT_LEVEL-EPIC-DB2777?style=flat-square"
-  alt="Epic"
-/>
+A persistent digital ecosystem populated by autonomous creatures that move, interact and make decisions from their individual needs and internal states.
 
-### Planet objective
-
-Create a persistent digital ecosystem populated by autonomous creatures that move, interact and make decisions based on their needs.
-
-### Technology modules
+**Technology**
 
 `Artificial Intelligence` · `Agent Simulation` · `Web Development`
 
@@ -204,8 +209,8 @@ Create a persistent digital ecosystem populated by autonomous creatures that mov
 
 <a href="https://github.com/indudhara59/Autonomous-Digital-Tamagotchi-">
   <img
-    src="https://img.shields.io/badge/ENTER_PLANET-Tamagotchi--9-DB2777?style=for-the-badge&logo=github"
-    alt="Digital Tamagotchi"
+    src="https://img.shields.io/badge/START_MISSION-TAMAGOTCHI-DB2777?style=for-the-badge&logo=github&logoColor=white"
+    alt="Open Digital Tamagotchi"
   />
 </a>
 
@@ -213,23 +218,18 @@ Create a persistent digital ecosystem populated by autonomous creatures that mov
 
 <td width="50%" valign="top">
 
-## ✅ DoIt Station
+## ✅ DoIt
 
-<img
-  src="https://img.shields.io/badge/PLANET-PRODUCTIVITY-059669?style=flat-square"
-  alt="Productivity"
-/>
+```text
+GAME MODE   : Productivity
+DIFFICULTY  : Epic
+FINAL BOSS  : Procrastination
+STATUS      : Deployed
+```
 
-<img
-  src="https://img.shields.io/badge/STATUS-ONLINE-059669?style=flat-square"
-  alt="Online"
-/>
+A glassmorphic multi-user task-management application with animated interactions, task categories, deadlines and visual productivity analytics.
 
-### Planet objective
-
-Build a polished multi-user productivity system with animated interactions, categories, deadlines and visual analytics.
-
-### Technology modules
+**Technology**
 
 `React` · `TypeScript` · `Supabase` · `Framer Motion` · `Recharts`
 
@@ -237,15 +237,15 @@ Build a polished multi-user productivity system with animated interactions, cate
 
 <a href="https://github.com/indudhara59/Todo-List">
   <img
-    src="https://img.shields.io/badge/VIEW_SOURCE-059669?style=for-the-badge&logo=github"
-    alt="Repository"
+    src="https://img.shields.io/badge/VIEW_SOURCE-059669?style=for-the-badge&logo=github&logoColor=white"
+    alt="Open DoIt source"
   />
 </a>
 
 <a href="https://itodo-list.vercel.app/">
   <img
-    src="https://img.shields.io/badge/LAUNCH_APP-0284C7?style=for-the-badge&logo=vercel&logoColor=white"
-    alt="Live app"
+    src="https://img.shields.io/badge/PLAY_LIVE-0284C7?style=for-the-badge&logo=vercel&logoColor=white"
+    alt="Open DoIt live"
   />
 </a>
 
@@ -255,27 +255,27 @@ Build a polished multi-user productivity system with animated interactions, cate
 <tr>
 <td width="50%" valign="top">
 
-## 🔗 Java Core
+## 🔗 Java Dependency Analyzer
 
-<img
-  src="https://img.shields.io/badge/PLANET-PROGRAM_ANALYSIS-F59E0B?style=flat-square"
-  alt="Program analysis"
-/>
+```text
+GAME MODE   : Static Program Analysis
+DIFFICULTY  : Rare
+FINAL BOSS  : Hidden Dependencies
+STATUS      : Completed
+```
 
-### Planet objective
+A static-analysis tool that discovers relationships among Java classes and methods and produces dependency information and graphs.
 
-Analyze Java source code and expose relationships among classes, methods and dependencies.
+**Technology**
 
-### Technology modules
-
-`Java` · `Static Analysis` · `Graph Generation`
+`Java` · `Static Analysis` · `Dependency Graphs`
 
 <br>
 
 <a href="https://github.com/indudhara59/java-dependency-analyzer">
   <img
-    src="https://img.shields.io/badge/ENTER_PLANET-Java_Core-F59E0B?style=for-the-badge&logo=github"
-    alt="Java Dependency Analyzer"
+    src="https://img.shields.io/badge/START_MISSION-JAVA_ANALYZER-F59E0B?style=for-the-badge&logo=github&logoColor=white"
+    alt="Open Java Dependency Analyzer"
   />
 </a>
 
@@ -285,16 +285,16 @@ Analyze Java source code and expose relationships among classes, methods and dep
 
 ## 💓 Bio-Pulse
 
-<img
-  src="https://img.shields.io/badge/PLANET-DIGITAL_HEALTH-E11D48?style=flat-square"
-  alt="Digital health"
-/>
+```text
+GAME MODE   : Digital Health
+DIFFICULTY  : Epic
+FINAL BOSS  : Delayed Intervention
+STATUS      : Prototype
+```
 
-### Planet objective
+An autonomous health-guardian concept based on telemetry, digital-twin ideas, preventive monitoring and circle-of-care coordination.
 
-Explore a preventive health guardian using telemetry, digital-twin concepts and autonomous care coordination.
-
-### Technology modules
+**Technology**
 
 `Health Technology` · `Telemetry` · `Digital Twins` · `AI`
 
@@ -302,8 +302,8 @@ Explore a preventive health guardian using telemetry, digital-twin concepts and 
 
 <a href="https://github.com/indudhara59/Bio-Pulse-Autonomous-Health-Guardian">
   <img
-    src="https://img.shields.io/badge/ENTER_PLANET-Bio--Pulse-E11D48?style=for-the-badge&logo=github"
-    alt="Bio-Pulse"
+    src="https://img.shields.io/badge/START_MISSION-BIO--PULSE-E11D48?style=for-the-badge&logo=github&logoColor=white"
+    alt="Open Bio-Pulse"
   />
 </a>
 
@@ -313,79 +313,95 @@ Explore a preventive health guardian using telemetry, digital-twin concepts and 
 
 ---
 
-# 📡 Incoming Alien Transmission
+# 👾 Interactive Production Boss
 
 <details>
-<summary><b>Decode the mysterious transmission</b></summary>
+<summary><b>🎮 Press START to enter the production server</b></summary>
 
 <br>
 
 ```text
-01010100 01101000 01100101
-00100000 01100010 01110101
-01100111 00100000 01101001
-01110011 00100000 01101110
-01100101 01100001 01110010
-```
+╔══════════════════════════════════════╗
+║        PRODUCTION SERVER 59          ║
+╠══════════════════════════════════════╣
+║ CONNECTION        : UNSTABLE         ║
+║ DEPLOYMENT        : FAILED           ║
+║ PLAYER HP         : 100              ║
+║ PRODUCTION BUG HP : 100              ║
+╚══════════════════════════════════════╝
 
-The ship detects an unknown production error.
-
-```text
 ERROR:
 Cannot read properties of undefined
-
-SHIP HEALTH  : 100%
-ALIEN SHIELD : 100%
 ```
 
-Choose your response.
+Choose an attack.
 
 <details>
-<summary>💥 Fire random code modifications</summary>
+<summary>🔥 Use Random Code Changes</summary>
 
-## Mission failed
+## 💀 Attack Failed
 
-The alien shield absorbs the changes and becomes stronger.
+The original error disappeared, but several new errors appeared.
 
 ```text
-SHIP HEALTH  : 10%
-ALIEN SHIELD : 140%
-NEW BUGS     : 7
+PLAYER HP         : 0
+PRODUCTION BUG HP : 145
+NEW BUGS          : 7
+ITEM RECEIVED     : Technical Debt
 ```
+
+Return to the previous screen and select another attack.
 
 </details>
 
 <details>
-<summary>📢 Activate 500 console logs</summary>
+<summary>🖨️ Use Console Log Storm</summary>
 
-## Signal interference detected
+## ⚠️ Minor Damage
 
-You discovered that something is undefined.
+You confirmed that a value is undefined.
 
-You also created 500 competing transmissions.
+You also generated 286 competing log messages.
 
 ```text
-SHIP HEALTH  : 55%
-ALIEN SHIELD : 75%
-CONSOLE LOGS : 500
+PLAYER HP         : 55
+PRODUCTION BUG HP : 82
+CONSOLE LOGS      : 286
+```
+
+<details>
+<summary>🔍 Inspect the stack trace</summary>
+
+You trace the failure to an API response containing a missing nested object.
+
+```text
+EXPERIENCE GAINED : +100
+SKILL UNLOCKED    : Root-Cause Analysis
 ```
 
 </details>
 
+</details>
+
 <details>
-<summary>🧪 Reproduce the error and launch a regression test</summary>
+<summary>🧪 Use Regression Test</summary>
 
-# 🏆 Transmission decoded
+# 🏆 Critical Hit
 
-The missing object is detected, safely handled and protected with a test.
+You reproduce the exact failure, identify the missing fallback and create a test that prevents the bug from returning.
 
 ```text
-SHIP HEALTH       : 100%
-ALIEN SHIELD      : 0%
+PLAYER HP         : 100
+PRODUCTION BUG HP : 0
+
 EXPERIENCE GAINED : +1000
-ITEM ACQUIRED     : Quantum Regression Test
+LEGENDARY ITEM    : Regression Test
 RANK UNLOCKED     : Production Guardian
 ```
+
+### Mission completed
+
+Star one of my repositories to give the player `+10 XP`.
 
 </details>
 
@@ -393,63 +409,51 @@ RANK UNLOCKED     : Production Guardian
 
 ---
 
-# 🏙️ Contribution Megacity
+# 🌃 3D Contribution Megacity
 
 <div align="center">
 
 <img
   src="./profile-3d-contrib/profile-night-rainbow.svg"
   width="100%"
-  alt="Three-dimensional contribution city"
+  alt="Three-dimensional GitHub contribution city"
 />
 
 ```text
-Every contribution constructs another building in the megacity.
+Every contribution constructs another building inside the Neural Arcade.
 ```
 
 </div>
 
 ---
 
-# 🐍 Cosmic Contribution Creature
+# 🐍 Dark Contribution Snake
 
 <div align="center">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/indudhara59/indudhara59/output/github-contribution-grid-snake-dark.svg"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/indudhara59/indudhara59/output/github-contribution-grid-snake.svg"
-  />
-
-  <img
-    src="https://raw.githubusercontent.com/indudhara59/indudhara59/output/github-contribution-grid-snake.svg"
-    width="100%"
-    alt="Contribution snake animation"
-  />
-</picture>
+<img
+  src="https://raw.githubusercontent.com/indudhara59/indudhara59/output/github-contribution-grid-snake-dark.svg"
+  width="100%"
+  alt="Animated dark contribution snake"
+/>
 
 </div>
 
 ---
 
-# 📊 Spacecraft Telemetry
+# 📊 Live Player Telemetry
 
 <div align="center">
 
 <img
   width="49%"
-  src="https://github-readme-stats.vercel.app/api?username=indudhara59&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&title_color=7DD3FC&text_color=C4B5FD&icon_color=F59E0B"
+  src="https://github-readme-stats.vercel.app/api?username=indudhara59&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&bg_color=0D1117"
   alt="GitHub statistics"
 />
 
 <img
   width="49%"
-  src="https://streak-stats.demolab.com?user=indudhara59&theme=transparent&hide_border=true&ring=7C3AED&fire=F59E0B&currStreakLabel=7DD3FC&sideLabels=C4B5FD&dates=94A3B8"
+  src="https://streak-stats.demolab.com?user=indudhara59&theme=tokyonight&hide_border=true&background=0D1117"
   alt="GitHub contribution streak"
 />
 
@@ -457,27 +461,27 @@ Every contribution constructs another building in the megacity.
 
 <img
   width="49%"
-  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=indudhara59&theme=transparent"
-  alt="Repositories per language"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=indudhara59&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&bg_color=0D1117"
+  alt="Most used languages"
 />
 
 <img
   width="49%"
-  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=indudhara59&theme=transparent"
-  alt="Most committed languages"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=indudhara59&theme=tokyonight&utcOffset=2"
+  alt="Productive coding time"
 />
 
 </div>
 
 ---
 
-# 📈 Flight Path
+# ⚡ Experience Activity
 
 <div align="center">
 
 <img
   width="100%"
-  src="https://github-readme-activity-graph.vercel.app/graph?username=indudhara59&bg_color=00000000&color=7DD3FC&line=8B5CF6&point=F59E0B&area=true&hide_border=true"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=indudhara59&bg_color=0D1117&color=A78BFA&line=7C3AED&point=38BDF8&area=true&hide_border=true"
   alt="GitHub activity graph"
 />
 
@@ -485,12 +489,12 @@ Every contribution constructs another building in the megacity.
 
 ---
 
-# 🏅 Galactic Achievements
+# 🏆 Achievement Cabinet
 
 <div align="center">
 
 <img
-  src="https://github-profile-trophy.vercel.app/?username=indudhara59&theme=discord&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=7"
+  src="https://github-profile-trophy.vercel.app/?username=indudhara59&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&row=1&column=7"
   alt="GitHub trophies"
 />
 
@@ -498,47 +502,35 @@ Every contribution constructs another building in the megacity.
 
 ---
 
-# 🧬 DNA of the Developer
-
-<div align="center">
-
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=indudhara59&layout=donut&theme=transparent&hide_border=true&title_color=7DD3FC&text_color=C4B5FD"
-  alt="Most used programming languages"
-/>
-
-</div>
-
----
-
-# 🗃️ Captain's Log
+# 📜 Current Mission Log
 
 ```text
-STARDATE 01  Building explainable AI systems
-STARDATE 02  Exploring transformer-assisted refactoring
-STARDATE 03  Developing interactive TypeScript applications
-STARDATE 04  Studying program analysis and software architecture
-STARDATE 05  Prototyping intelligent healthcare technology
-STARDATE 06  Creating visual machine-learning experiences
+[ONLINE]  Building explainable artificial-intelligence systems
+[ONLINE]  Exploring transformer-assisted software engineering
+[ONLINE]  Developing interactive TypeScript applications
+[ONLINE]  Investigating program analysis and software architecture
+[ONLINE]  Prototyping intelligent healthcare technology
+[LOADING] New visual machine-learning experiences
 ```
 
 ---
 
 <details>
-<summary><b>🛸 Enter the restricted area</b></summary>
+<summary><b>🔐 Open the hidden achievement chamber</b></summary>
 
 <br>
 
 <div align="center">
 
-# 👽 Secret Life Form Discovered
+# 🌟 Hidden Achievement Unlocked
 
 ```text
-SPECIES          : Curious Developer
-INTELLIGENCE     : Extremely High
-FAVOURITE TOOL   : Curiosity
-BONUS ENERGY     : +59
-SECRET MESSAGE   : The universe rewards developers who explore.
+ACHIEVEMENT : Curious Explorer
+BONUS XP    : +59
+RARE ITEM   : Curiosity Key
+
+Great developers continue exploring
+after everyone else stops.
 ```
 
 </div>
@@ -549,19 +541,19 @@ SECRET MESSAGE   : The universe rewards developers who explore.
 
 <div align="center">
 
-## Establish Communication
+# 🤝 Multiplayer Lobby
 
 <a href="https://i59.vercel.app/">
   <img
-    src="https://img.shields.io/badge/PORTFOLIO-COMMUNICATION_CHANNEL-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"
+    src="https://img.shields.io/badge/PORTFOLIO-i59.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"
     alt="Portfolio"
   />
 </a>
 
 <a href="https://github.com/indudhara59">
   <img
-    src="https://img.shields.io/badge/GITHUB-SPACE_STATION-111827?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub"
+    src="https://img.shields.io/badge/GITHUB-indudhara59-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub profile"
   />
 </a>
 
@@ -569,12 +561,18 @@ SECRET MESSAGE   : The universe rewards developers who explore.
 
 ```text
 ╔══════════════════════════════════════════════════════════════╗
-║  STAR A PROJECT       → SEND ONE ENERGY CRYSTAL             ║
-║  FOLLOW THE CAPTAIN   → JOIN THE SPACE CREW                 ║
-║  RETURN LATER         → DISCOVER NEW PLANETS                ║
+║  STAR A PROJECT       → GRANT THE PLAYER +10 XP             ║
+║  FOLLOW THE PROFILE   → JOIN THE MULTIPLAYER PARTY          ║
+║  RETURN LATER         → DISCOVER NEW MISSIONS               ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-### `Transmission complete. Safe travels, explorer.`
+### `> Progress saved. Neural Arcade connection remains active.`
+
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:030712,30:111827,65:312E81,100:7C3AED"
+  alt="Footer"
+/>
 
 </div>
