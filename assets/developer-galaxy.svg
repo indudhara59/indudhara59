@@ -1,0 +1,539 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="460"
+  viewBox="0 0 1200 460"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Indudhara Developer Galaxy</title>
+
+  <desc id="description">
+    An animated developer galaxy containing an artificial-intelligence planet,
+    orbiting technology satellites, stars and a spacecraft.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="45%" stop-color="#111c44"/>
+      <stop offset="100%" stop-color="#3b0764"/>
+    </linearGradient>
+
+    <radialGradient id="planet" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="15%" stop-color="#7dd3fc"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </radialGradient>
+
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="ship" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="smallGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="frame">
+      <rect width="1200" height="460" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .stars-small {
+      animation: twinkle 2.8s ease-in-out infinite;
+    }
+
+    .stars-medium {
+      animation: twinkle 4s ease-in-out infinite reverse;
+    }
+
+    .planet {
+      animation: planetPulse 4s ease-in-out infinite;
+      transform-origin: 870px 224px;
+    }
+
+    .orbit-one {
+      animation: rotateClockwise 16s linear infinite;
+      transform-origin: 870px 224px;
+    }
+
+    .orbit-two {
+      animation: rotateCounterClockwise 22s linear infinite;
+      transform-origin: 870px 224px;
+    }
+
+    .satellite-counter-one {
+      animation: rotateCounterClockwise 16s linear infinite;
+      transform-origin: center;
+    }
+
+    .satellite-counter-two {
+      animation: rotateClockwise 22s linear infinite;
+      transform-origin: center;
+    }
+
+    .spacecraft {
+      animation: spacecraftFlight 7s ease-in-out infinite;
+    }
+
+    .engine {
+      animation: enginePulse 0.7s ease-in-out infinite;
+    }
+
+    .scanner {
+      animation: scan 5s linear infinite;
+    }
+
+    .signal {
+      stroke-dasharray: 11 12;
+      animation: signalFlow 3s linear infinite;
+    }
+
+    .title-group {
+      animation: titleEntrance 1.3s ease-out both;
+    }
+
+    .subtitle-group {
+      animation: titleEntrance 1.3s 0.3s ease-out both;
+    }
+
+    @keyframes twinkle {
+      0%,
+      100% {
+        opacity: 0.25;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes planetPulse {
+      0%,
+      100% {
+        transform: scale(0.96);
+      }
+
+      50% {
+        transform: scale(1.04);
+      }
+    }
+
+    @keyframes rotateClockwise {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes rotateCounterClockwise {
+      to {
+        transform: rotate(-360deg);
+      }
+    }
+
+    @keyframes spacecraftFlight {
+      0%,
+      100% {
+        transform: translate(0, 0) rotate(-2deg);
+      }
+
+      50% {
+        transform: translate(18px, -20px) rotate(2deg);
+      }
+    }
+
+    @keyframes enginePulse {
+      0%,
+      100% {
+        opacity: 0.35;
+        transform: scaleX(0.7);
+      }
+
+      50% {
+        opacity: 1;
+        transform: scaleX(1.2);
+      }
+    }
+
+    @keyframes scan {
+      from {
+        transform: translateY(-460px);
+      }
+
+      to {
+        transform: translateY(460px);
+      }
+    }
+
+    @keyframes signalFlow {
+      to {
+        stroke-dashoffset: -92;
+      }
+    }
+
+    @keyframes titleEntrance {
+      from {
+        opacity: 0;
+        transform: translateY(22px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="460" fill="url(#background)"/>
+
+    <g fill="#ffffff" class="stars-small">
+      <circle cx="48" cy="52" r="1.5"/>
+      <circle cx="128" cy="105" r="1.3"/>
+      <circle cx="198" cy="42" r="2"/>
+      <circle cx="286" cy="118" r="1.2"/>
+      <circle cx="384" cy="56" r="1.6"/>
+      <circle cx="472" cy="104" r="1.2"/>
+      <circle cx="568" cy="45" r="1.8"/>
+      <circle cx="660" cy="126" r="1.4"/>
+      <circle cx="762" cy="64" r="1.5"/>
+      <circle cx="928" cy="58" r="1.8"/>
+      <circle cx="1034" cy="112" r="1.4"/>
+      <circle cx="1140" cy="48" r="1.7"/>
+    </g>
+
+    <g fill="#7dd3fc" class="stars-medium">
+      <circle cx="75" cy="340" r="2"/>
+      <circle cx="170" cy="405" r="1.5"/>
+      <circle cx="292" cy="362" r="1.8"/>
+      <circle cx="434" cy="410" r="1.6"/>
+      <circle cx="570" cy="342" r="1.8"/>
+      <circle cx="700" cy="400" r="1.4"/>
+      <circle cx="832" cy="350" r="1.8"/>
+      <circle cx="1005" cy="390" r="2"/>
+      <circle cx="1138" cy="336" r="1.5"/>
+    </g>
+
+    <g class="title-group">
+      <text
+        x="68"
+        y="115"
+        fill="#7dd3fc"
+        font-family="monospace"
+        font-size="17"
+        letter-spacing="5"
+      >
+        GALACTIC DEVELOPER ID // 59
+      </text>
+
+      <text
+        x="65"
+        y="185"
+        fill="#ffffff"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="56"
+        font-weight="800"
+      >
+        INDUDHARA
+      </text>
+
+      <text
+        x="65"
+        y="242"
+        fill="#a78bfa"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="56"
+        font-weight="800"
+      >
+        DEVELOPER GALAXY
+      </text>
+    </g>
+
+    <g class="subtitle-group">
+      <text
+        x="69"
+        y="286"
+        fill="#bfdbfe"
+        font-family="monospace"
+        font-size="18"
+      >
+        AI • MACHINE LEARNING • FULL-STACK SYSTEMS
+      </text>
+
+      <rect
+        x="68"
+        y="320"
+        width="290"
+        height="48"
+        rx="24"
+        fill="#7c3aed"
+        opacity="0.92"
+      />
+
+      <circle
+        cx="96"
+        cy="344"
+        r="7"
+        fill="#86efac"
+        filter="url(#smallGlow)"
+      />
+
+      <text
+        x="116"
+        y="351"
+        fill="#ffffff"
+        font-family="monospace"
+        font-size="15"
+        font-weight="700"
+      >
+        EXPLORATION SYSTEM ONLINE
+      </text>
+    </g>
+
+    <g class="planet">
+      <circle
+        cx="870"
+        cy="224"
+        r="115"
+        fill="url(#planet)"
+        filter="url(#glow)"
+      />
+
+      <ellipse
+        cx="870"
+        cy="224"
+        rx="190"
+        ry="52"
+        fill="none"
+        stroke="url(#ring)"
+        stroke-width="13"
+        transform="rotate(-12 870 224)"
+      />
+
+      <ellipse
+        cx="870"
+        cy="224"
+        rx="178"
+        ry="43"
+        fill="none"
+        stroke="#ffffff"
+        stroke-opacity="0.22"
+        stroke-width="2"
+        transform="rotate(-12 870 224)"
+      />
+
+      <text
+        x="870"
+        y="218"
+        text-anchor="middle"
+        fill="#ffffff"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="35"
+        font-weight="800"
+      >
+        AI
+      </text>
+
+      <text
+        x="870"
+        y="248"
+        text-anchor="middle"
+        fill="#e0e7ff"
+        font-family="monospace"
+        font-size="13"
+        letter-spacing="3"
+      >
+        CORE PLANET
+      </text>
+    </g>
+
+    <g class="orbit-one">
+      <ellipse
+        cx="870"
+        cy="224"
+        rx="255"
+        ry="102"
+        fill="none"
+        stroke="#38bdf8"
+        stroke-opacity="0.35"
+        stroke-width="2"
+        class="signal"
+      />
+
+      <g transform="translate(1125 224)">
+        <g class="satellite-counter-one">
+          <circle
+            r="34"
+            fill="#172554"
+            stroke="#38bdf8"
+            stroke-width="2"
+          />
+
+          <text
+            y="6"
+            text-anchor="middle"
+            fill="#ffffff"
+            font-family="monospace"
+            font-size="16"
+            font-weight="700"
+          >
+            TS
+          </text>
+        </g>
+      </g>
+
+      <g transform="translate(615 224)">
+        <g class="satellite-counter-one">
+          <circle
+            r="34"
+            fill="#172554"
+            stroke="#38bdf8"
+            stroke-width="2"
+          />
+
+          <text
+            y="6"
+            text-anchor="middle"
+            fill="#ffffff"
+            font-family="monospace"
+            font-size="16"
+            font-weight="700"
+          >
+            PY
+          </text>
+        </g>
+      </g>
+    </g>
+
+    <g class="orbit-two">
+      <ellipse
+        cx="870"
+        cy="224"
+        rx="175"
+        ry="160"
+        fill="none"
+        stroke="#c084fc"
+        stroke-opacity="0.32"
+        stroke-width="2"
+        class="signal"
+      />
+
+      <g transform="translate(870 64)">
+        <g class="satellite-counter-two">
+          <circle
+            r="31"
+            fill="#2e1065"
+            stroke="#c084fc"
+            stroke-width="2"
+          />
+
+          <text
+            y="5"
+            text-anchor="middle"
+            fill="#ffffff"
+            font-family="monospace"
+            font-size="14"
+            font-weight="700"
+          >
+            ML
+          </text>
+        </g>
+      </g>
+
+      <g transform="translate(870 384)">
+        <g class="satellite-counter-two">
+          <circle
+            r="31"
+            fill="#2e1065"
+            stroke="#c084fc"
+            stroke-width="2"
+          />
+
+          <text
+            y="5"
+            text-anchor="middle"
+            fill="#ffffff"
+            font-family="monospace"
+            font-size="13"
+            font-weight="700"
+          >
+            JAVA
+          </text>
+        </g>
+      </g>
+    </g>
+
+    <g class="spacecraft" transform="translate(490 330)">
+      <path
+        d="M0 30 L72 0 L126 28 L72 46 Z"
+        fill="url(#ship)"
+      />
+
+      <path
+        d="M46 20 L72 0 L92 21 L72 30 Z"
+        fill="#7dd3fc"
+      />
+
+      <path
+        d="M12 30 L0 30 L-40 40 L0 23 Z"
+        fill="#38bdf8"
+        opacity="0.55"
+        class="engine"
+      />
+
+      <circle cx="91" cy="27" r="3" fill="#ffffff"/>
+    </g>
+
+    <rect
+      class="scanner"
+      x="0"
+      y="-10"
+      width="1200"
+      height="2"
+      fill="#7dd3fc"
+      opacity="0.16"
+    />
+
+    <rect
+      x="2"
+      y="2"
+      width="1196"
+      height="456"
+      rx="26"
+      fill="none"
+      stroke="#8b5cf6"
+      stroke-opacity="0.55"
+      stroke-width="4"
+    />
+  </g>
+</svg>
